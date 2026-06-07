@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ScealHub - Irish Stories for Classrooms</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>ScealHub</h1>
+    <p class="sub">Free Irish stories: History + Maths + Gaeilge. No ads, no login.</p>
+  </header>
+
+  <div class="search-box">
+    <input type="text" id="q" placeholder="Search: 1916, Famine, Connemara, 1845..." autofocus>
+    <button id="go">Search</button>
+  </div>
+
+  <div class="filters">
+    <label><input type="checkbox" id="gaeilge"> As Gaeilge</label>
+    <select id="media">
+      <option value="all">All</option>
+      <option value="text">Text Only</option>
+      <option value="tv">TV + Audio</option>
+    </select>
+  </div>
+
+  <div id="results"></div>
+
+  <footer>
+    <small>Sources: Wikipedia, Dúchas, RTÉ Archives, TG4. Built for classrooms. Free forever.</small>
+  </footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html> 
