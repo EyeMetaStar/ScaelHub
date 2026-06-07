@@ -26,4 +26,15 @@ footer { text-align: center; margin-top: 40px; color: #6c7893; font-size: 0.8rem
 @media (max-width: 600px) {
   .search-box { flex-direction: column; }
   button { width: 100%; }
+  .content-rows { margin-top: 40px; }
+.content-rows h2 { font-size: 1.3rem; margin: 25px 0 10px 0; color: var(--text); }
+.row { display: flex; gap: 15px; overflow-x: auto; padding-bottom: 10px; }
+.tile { 
+  min-width: 160px; background: var(--card-bg); border-radius: 8px; 
+  text-decoration: none; color: var(--text); transition: transform 0.2s;
+}
+.tile:hover { transform: scale(1.05); }
+.tile img { width: 100%; height: 90px; object-fit: contain; padding: 10px; }
+.tile span { display: block; padding: 8px; font-size: 0.9rem; text-align: center; } 
+
 } 
