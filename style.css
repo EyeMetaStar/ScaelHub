@@ -36,5 +36,21 @@ footer { text-align: center; margin-top: 40px; color: #6c7893; font-size: 0.8rem
 .tile:hover { transform: scale(1.05); }
 .tile img { width: 100%; height: 90px; object-fit: contain; padding: 10px; }
 .tile span { display: block; padding: 8px; font-size: 0.9rem; text-align: center; } 
+  <h2>Kids/Óg</h2>
+<div class="row">
+  <a href="https://www.tg4.ie/en/player/?series=Cúla4" target="_blank" class="tile">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/TG4_logo_2018.svg/320px-TG4_logo_2018.svg.png" alt="Cúla4">
+    <span>Cúla4 - As Gaeilge</span>
+  </a>
+  <a href="https://www.rte.ie/player/series/rtejr/" target="_blank" class="tile">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/40/RTE_Logo.svg/320px-RTE_Logo.svg.png" alt="RTÉjr">
+    <span>RTÉjr</span>
+  </a>
+  <a href="https://www.youtube.com/@Cula4" target="_blank" class="tile">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b8/YouTube_Logo_2017.svg" alt="Cúla4 YouTube">
+    <span>Cúla4 YouTube</span>
+  </a>
+</div> 
+
 
 } 
